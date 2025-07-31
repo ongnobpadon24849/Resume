@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eee;
+  margin: 0;
+  padding: 40px;
+  overflow: auto;
+}
+
+.a4-page {
+  width: 210mm;
+  background: white;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-column {
+  width: 40%;
+  padding-right: 20px;
+  /* border-right: 2px solid rgb(54, 54, 54); */
+}
+
+.right-column {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.header-name {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.header-field {
+      text-align: right;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-size: 20px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section-icon {
+  margin-top: 40px;
+}
+
+.header-block {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.header-block-undericon {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+  width: 300px;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.level-1 {
+  font-weight: bold;
+  list-style-type: disc;
+}
+
+.sublevel-1 {
+  font-weight: normal;
+  list-style-type: disc;
+  margin-top: 5px;
+}
+
+.level-2 {
+  font-weight: normal;
+  list-style-type: circle;
+  margin-top: 5px;
+}
+
+.level-3 {
+  font-weight: lighter;
+  list-style-type: square;
+  margin-top: 3px;
+}
+
+li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  overflow: hidden;
+  border-radius: 70%;
+  border: 0.5px solid #b4b4b4;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.contact-item {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: cover;
+}
